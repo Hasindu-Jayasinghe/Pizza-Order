@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep.pizza.order.controller.MainFormController">
+   <children>
+      <ImageView fitHeight="69.0" fitWidth="79.0" layoutX="2.0">
+         <image>
+            <Image url="@../css/logo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="268.0" layoutY="17.0" text="Main">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="btn_Back" fitHeight="40.0" fitWidth="41.0" layoutX="563.0" onMouseClicked="#btn_back_Action">
+         <image>
+            <Image url="@../css/back.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img_Manage_Pizza" fitHeight="55.0" fitWidth="70.0" layoutX="337.0" layoutY="169.0" onMouseClicked="#img_Manage_Pizza_Action">
+         <image>
+            <Image url="@../css/pizza-icon-26.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img_Customer" fitHeight="55.0" fitWidth="61.0" layoutX="85.0" layoutY="169.0" onMouseClicked="#img_Customer_Action">
+         <image>
+            <Image url="@../css/customer.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img_Place_Order" layoutX="220.0" layoutY="173.0" onMouseClicked="#img_Place_Order_Action">
+         <image>
+            <Image url="@../css/order.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="81.0" layoutY="244.0" text="Customer">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="201.0" layoutY="244.0" text="Place Order">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="323.0" layoutY="244.0" text="Manage Pizza">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="img_View_Order" layoutX="491.0" layoutY="173.0" onMouseClicked="#img_View_Order_Action">
+         <image>
+            <Image url="@../css/bill.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="475.0" layoutY="244.0" text="View Orders">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="382.0" prefWidth="454.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep.pizza.order.controller.LoginFormController">
+   <children>
+      <ImageView fitHeight="60.0" fitWidth="200.0" layoutX="143.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../css/front.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="76.0" layoutX="2.0" layoutY="-1.0">
+         <image>
+            <Image url="@../css/logo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="84.0" layoutY="140.0" text="User Name">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <Label layoutX="85.0" layoutY="192.0" text="Password">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <TextField fx:id="txtUser_name" layoutX="180.0" layoutY="137.0" prefHeight="25.0" prefWidth="200.0" />
+      <JFXButton fx:id="btn_Login" layoutX="330.0" layoutY="301.0" mnemonicParsing="false" onAction="#btn_login_Action" style="-fx-background-color: yellow;" text="Login" />
+      <PasswordField fx:id="txtPassword" layoutX="180.0" layoutY="190.0" prefHeight="25.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>
