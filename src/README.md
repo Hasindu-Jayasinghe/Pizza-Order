@@ -11,19 +11,19 @@ Pizza order is an management software tool to manage organizational orders. It h
 
 In this page menu you can add a new customer, add new asset types and delete assets. All of those functionalities include in the **asset** section.
 
-![AssetPage](./scrn_shot/Capture.PNG) 
+ ![CustomerMange](./scrn shot/Capture.PNG) 
  
  ## Mange Pizza
 
  In this interface you can add a new Piza Item.It has delete ,update funtion. When we are going to add a new pizza order it's required a Items.
 
-![Department](./scrn_shot/pizza.PNG)
+ ![MangePizza](./scrn shot/pizza.PNG)
 
  ## Place Order
 
 Place Order section will allow to maintain a services to the put a place order of the customer. This has include add order,delete order and update order functionalities.
 
-![Servies](./scrn_shot/placeorder.PNG)
+![ PlaceOrder](./scrn shot/placeorder.PNG)
 
 ## View Orders
 
